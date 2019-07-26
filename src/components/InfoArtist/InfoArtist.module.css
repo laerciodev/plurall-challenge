@@ -1,0 +1,36 @@
+.infoArtist {
+    width: 100%;
+    text-align: center;
+}
+
+.nameArtist {
+    margin: 30px 0;
+}
+
+.popularity {
+    margin-bottom: 15px;
+}
+
+.genres {
+    margin: 15px 0;
+}
+
+.listGenres {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.genre {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    border: 1px solid var(--color-purple);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.genre:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--color-purple);
+}

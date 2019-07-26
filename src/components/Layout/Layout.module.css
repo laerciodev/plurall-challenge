@@ -1,0 +1,25 @@
+.nav-bar {
+  background-color: var(--color-purple);
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  min-height: calc(100vh - var(--height-nav-bar) - var(--height-footer));
+}
+
+.breadCrumb {
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+@media(max-width: 678px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: var(--color-dark-gray);
+  padding: var(--padding);
+}

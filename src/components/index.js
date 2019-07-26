@@ -1,0 +1,10 @@
+export { default as Layout } from './Layout'
+export { default as SubHeader } from './SubHeader'
+export { default as PrivateRoute } from './PrivateRoute'
+export { default as InputArtist } from './InputArtist'
+export { default as InfoArtist } from './InfoArtist'
+export { default as InfoAlbums } from './InfoAlbums'
+export { default as ListArtist } from './ListArtist'
+export { default as UserInput } from './UserInput'
+export { default as GetImages } from './GetImages'
+ 

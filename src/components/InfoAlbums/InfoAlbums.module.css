@@ -1,0 +1,35 @@
+.infoArtist {
+    margin-top: 30px;
+}
+
+.listAlbums {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 678px) {
+    .listAlbums {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.itemAlbum {
+    margin: 30px 0;
+}
+
+.itemAlbum:hover {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.titleAlbum {
+    margin-top: 15px;
+    max-width: 300px;
+}
+
+.dateRelease {
+    display: inline-block;
+    margin-top: 10px;
+}
